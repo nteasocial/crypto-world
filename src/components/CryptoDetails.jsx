@@ -141,6 +141,7 @@ const CryptoDetails = () => {
             <p>
               An overview showing the statistics of {cryptoDetails.name}, such
               as the base and quote currency, the rank, and trading volume.
+              Always stay updated
             </p>
           </Col>
           {stats.map(({ icon, title, value }) => (
