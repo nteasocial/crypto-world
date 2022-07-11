@@ -140,7 +140,7 @@ const CryptoDetails = () => {
             </Title>
             <p>
               An overview showing the statistics of {cryptoDetails.name}, such
-              as the base and quote currency, the rank, and trading volume.
+              as the base and quote currency, the rank, all markets and trading volume.
             </p>
           </Col>
           {stats.map(({ icon, title, value }) => (
